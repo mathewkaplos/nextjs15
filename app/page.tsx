@@ -1,14 +1,13 @@
-import Hello from "./components/hello"
+import Hello from "./components/hello";
 
 export default function Home() {
-  console.log("server component")
+  console.log("server component");
   return (
     <>
-<div >
-  Hi
-
-   <Hello />
-   </div>
-</>
+      <div>
+        Hi
+        <Hello />
+      </div>
+    </>
   );
 }
